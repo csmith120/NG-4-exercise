@@ -3,7 +3,14 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class SearchResultsService {
+export class SearchService {
+  private searchTerms: string[] = [];
 
-  constructor() { }
+  getSearchTerms(): string[] {
+    return this.searchTerms;
+  }
+
+  addSearchTerm(term: string) {
+    this.searchTerms.push(term);
+  }
 }
