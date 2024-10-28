@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 
 import { SearchService } from '../search-results.service';
+import { RandomBGColorDirective } from '../random-bgcolor.directive';
 
 
 @Component({
