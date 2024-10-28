@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { RandomBGColorDirective } from './random-bgcolor.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    RandomBGColorDirective
   ],
   imports: [
     BrowserModule,

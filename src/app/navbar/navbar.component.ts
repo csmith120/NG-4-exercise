@@ -10,7 +10,7 @@ export class NavbarComponent {
   searchTerm: string = '';
   searchTerms: string[] = []
 
-  constructor(private searchService: SearchService);
+  constructor(private searchService: SearchService){}
 
   //adds the the input
   addSearchTerm() {
